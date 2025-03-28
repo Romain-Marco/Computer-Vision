@@ -1,0 +1,5 @@
+24/03/2025 
+Reprise du programme pour faire la calibration intrasec des 2 caméras.
+
+Refaite du programme de calibration stéréo. Pour ne plus utiliser la fonction toute faite OpenCV, mais prendre 2 images, cliquer 8 fois sur les 2 images pour sélectionner les points homologues. Puis calcul de la matrice fondamentale puis essentielle avec les 2 matrices de calibration des caméras correspondantes, et donc calcul de la rotation et translation. 
+Nous avons les résultats suivants qui sont très corrects, car physiquement les caméras sont écartées de 15,5 cm et la translation indiquée en y est de 0,014 m, une translation en x quasi nul.
